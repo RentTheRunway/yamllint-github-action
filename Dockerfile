@@ -1,4 +1,4 @@
-FROM python:3.7-alpine
+FROM artifactory.rtr.cloud/docker/alpine:3.9
 
 # hadolint ignore=DL3018
 RUN apk add --update --no-cache bash ca-certificates curl git jq openssh
